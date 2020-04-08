@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>BeMore</title>
+    <link>/</link>
+    <description>Recent content on BeMore</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>©2020 Sheffield.</copyright>
+    <lastBuildDate>Wed, 08 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>BeMore</title>
+      <link>/about/</link>
+      <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description> Bolging something&amp;hellip; When you feel confused, try to take a break, and just do something you like; Follow your heart, and do not lost it; Try to be better!  </description>
+      
+    </item>
+    
+    <item>
+      <title>Posts</title>
+      <link>/post/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>
