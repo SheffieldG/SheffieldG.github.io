@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en"><meta charset="utf-8"><meta name="generator" content="Hugo 0.68.3" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="supported-color-schemes" content="light dark"><title>插值法小记&nbsp;&ndash;&nbsp;BeTale</title><link rel="stylesheet" href="/css/core.min.0f59155b9edceded1f8c13d2f684f8def651824faad84b9de21f1c6a9f6a9fd3472f653ac06ec012a17fd6572b35b414.css" integrity="sha384-D1kVW57c7e0fjBPS9oT43vZRgk&#43;q2Eud4h8cap9qn9NHL2U6wG7AEqF/1lcrNbQU"><body>
+    <div class="base-body"><section id="header" class="site header">
+    <div class="header wrap"><span class="header left-side"><a class="site home" href="/"><img class="site logo" src="/images/logo.png" alt /><span class="site name">BeTale</span></a></span>
+        <span class="header right-side"><div class="nav wrap"><nav class="nav"><a class="nav item" href="/categories/">Categories</a><a class="nav item" href="/tags/">Tags</a><a class="nav item" href="/about/">Something</a></nav></div></span></div></section><div id="content"><div class="article-container"><section class="article header">
+    <h1 class="article title">插值法小记</h1><p class="article date">2020-04-09</p></section><article class="article markdown-body"><h3 id="language插值法">Language插值法</h3>
+<hr>
+<p>Language插值多项式起源于基本的多项式插值，它的基本形式可记作：
+$$L(x) = \sum^n_{k=0} y_{k} \times l(x)$$</p>
+<p>其中$y_k$的系数$l(x)$称为Language插值基函数，其表达式为：$$l(x) = \prod^n_{{i=0}\atop{i \neq k}}\frac{x-x_i}{x_k-x_i}$$</p>
+<p>完全的Language插值基函数可记作：
+$$
+L(x) = \sum^n_{k=0} (y_{k} \prod^n_{{i=0} \atop{i \neq k}} \frac{x-x_i}{x_k-x_i})
+$$</p>
+<blockquote>
+<p>实用误差估计式
+$$
+R(x) = f(x) - L(x) \approx \frac {L _n(x) - L ^* _n(x)} {x _{n} - x _{n+1}} (x - x _0)
+$$</p>
+</blockquote>
+<h3 id="aitken算法">Aitken算法</h3>
+<hr>
+<p>逐次线性插值公式:
+$$
+I _{0,1,&hellip;,k,k+1}(x)=\frac {I _{0,1,&hellip;,k}(x) - I _{0,1,&hellip;,k,k+1}(x)}{x _1 - x _l}(x - x _1)
+$$</p>
+<h3 id="newton插值多项式">Newton插值多项式</h3>
+<hr>
+</article></div><section class="article navigation"><p><a class="link" href="/post/markdown-syntax/"><span class="li">&rarr;</span>Markdown Syntax Guide</a></p></section></div><section id="footer" class="footer"><div class="footer-wrap">
+    <p class="copyright">©2020 Sheffield.</p>
+    <p class="powerby"><span>Powered by </span><a href="https://gohugo.io" 
+        target="_blank">Hugo</a><span> and the </span><a href="https://themes.gohugo.io/hugo-notepadium/" 
+        target="_blank">Notepadium</a></p>
+</div></section><script defer type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS-MML_HTMLorMML" integrity="sha384-e/4/LvThKH1gwzXhdbY2AsjR3rm7LHWyhIG5C0jiRfn8AN2eTN5ILeztWw0H9jmN" crossorigin="anonymous"></script>
+        <script
+            type="text/x-mathjax-config">MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });</script></div>
+</body>
+
+</html>
